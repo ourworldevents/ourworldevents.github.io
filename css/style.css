@@ -1,0 +1,113 @@
+/* YOUR CUSTOM STYLES */
+
+.navbar .mega-dropdown {
+  position: static !important; }
+
+.navbar .dropdown-menu.mega-menu {
+  width: 100%;
+  border: none;
+  border-radius: 0; }
+  .navbar .dropdown-menu.mega-menu a {
+    padding: 0 0 0 0; }
+    .navbar .dropdown-menu.mega-menu a.news-title-2 {
+      font-weight: 500;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      -webkit-transition: .2s;
+      transition: .2s;
+      color: #fff !important; }
+      .navbar .dropdown-menu.mega-menu a.news-title-2:hover {
+        color: #d0d6e2 !important; }
+  .navbar .dropdown-menu.mega-menu .sub-menu a.menu-item-2 {
+    color: #fff !important; }
+    .navbar .dropdown-menu.mega-menu .sub-menu a.menu-item-2:hover {
+      color: #fff !important; }
+  .navbar .dropdown-menu.mega-menu .sub-title {
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0; }
+  .navbar .dropdown-menu.mega-menu .mt-sm {
+    margin-top: -3px; }
+  .navbar .dropdown-menu.mega-menu .font-small {
+    font-size: 0.85rem; }
+
+    .container-about-st {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+    .centered-about-st {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+.GeneratedMarquee {
+font-family:'Comic Sans MS';
+font-size:1.5em;
+font-weight:bold;
+line-height:1.3em;
+color:#FF0000;
+background-color:#FFFFFF;
+}
